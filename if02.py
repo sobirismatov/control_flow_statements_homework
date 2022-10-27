@@ -10,4 +10,4 @@ def main(a):
         print(a+1)
     else :
         print(a-2)
-    return a+1 or a-2
+    return 
