@@ -11,4 +11,4 @@ def main(a):
     else:
         print(a)
     return a   
-print(main(1))
+
