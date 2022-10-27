@@ -8,7 +8,7 @@ def main(a):
     """
     if a>0:
         print(a+1)
-    else:
+    if a<0:
         print(a)
     return a   
 
