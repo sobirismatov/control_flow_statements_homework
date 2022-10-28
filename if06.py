@@ -18,12 +18,12 @@ def main(a,b,c):
     """
     s=a,b,c
     if a>0 and b>0 and c>0:
-        s=  3 , "musbat raqamlar ko'p"
+        s="musbat raqamlar ko'p"
     if a<0 and b>0 and c>0 or a<0 and b<0 and c>0 or a>0 and b>0 and c<0:
-        s=  2, "musbat raqamlar ko'p"
+        s= "musbat raqamlar ko'p"
     if a<0 and b<0 and c>0 or a<0 and b>0 and c<0 or a>0 and b<0 and c<0:
-        s= 2 , "manfiy raqamlar kop"
+        s= "manfiy raqamlar kop"
     else:
-        s= 3, "manfiy raqamlar kop"
+        s= "manfiy raqamlar kop"
     return s
 print(main(2,3,4))
