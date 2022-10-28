@@ -12,13 +12,16 @@ def main(a):
     Returns:
         string: the message to print
     """
+    s=a
     if a>0 and a%2==0:
-        return "musbat juft son"
-    if a>0 and a%2!=0:
-        return "musbat toq son"
+        s= "musbat juft son"
+    if a>0 and a%2==1:
+        s= "musbat toq son"
     if a<0 and a%2==0:
-        return "manfiy juft son"
-    if a<0 and a%2!=0:
-        return "manfiy toq son"
+        s= "manfiy juft son"
+    if a<0 and a%2==1:
+        s= "manfiy toq son"
     if a==0:
-        return "raqam nol"
+        s= "raqam nol"
+    return s
+print(main(0))

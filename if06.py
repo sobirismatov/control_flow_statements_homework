@@ -1,3 +1,6 @@
+from re import S
+
+
 def main(a,b,c):
     """
     Find how many positive and how many negative numbers there are in the given numbers.
@@ -13,12 +16,14 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
+    s=a,b,c
     if a>0 and b>0 and c>0:
-        return  3 , "musbat raqamlar ko'p"
+        s=  3 , "musbat raqamlar ko'p"
     if a<0 and b>0 and c>0 or a<0 and b<0 and c>0 or a>0 and b>0 and c<0:
-        return 2, "musbat raqamlar ko'p"
+        s=  2, "musbat raqamlar ko'p"
     if a<0 and b<0 and c>0 or a<0 and b>0 and c<0 or a>0 and b<0 and c<0:
-        return 2 , "manfiy raqamlar kop"
+        s= 2 , "manfiy raqamlar kop"
     else:
-        return 3, "manfiy raqamlar kop"
-print(main(1,-1,-2))
+        s= 3, "manfiy raqamlar kop"
+    return s
+print(main(2,3,4))
