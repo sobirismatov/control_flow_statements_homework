@@ -10,5 +10,5 @@ def main(a):
         print(a+1)
     else:
         print(a)
-    return a   
+    return 0
 
