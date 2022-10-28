@@ -13,4 +13,12 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    if a>0 and b>0 and c>0:
+        return  "3 musbat raqamlar ko'p"
+    if a<0 and b>0 and c>0 or a<0 and b<0 and c>0 or a>0 and b>0 and c<0:
+        return "2 ta musbat raqamlar ko'p"
+    if a<0 and b<0 and c>0 or a<0 and b>0 and c<0 or a>0 and b<0 and c<0:
+        return "2 ta manfiy raqamlar kop"
+    else:
+        return "3 manfiy raqamlar kop"
+print(main(1,-1,-2))
