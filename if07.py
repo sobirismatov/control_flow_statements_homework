@@ -22,4 +22,3 @@ def main(a):
         return "manfiy toq son"
     if a==0:
         return "raqam nol"
-print(main(-3))

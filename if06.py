@@ -21,4 +21,3 @@ def main(a,b,c):
         return "2 ta manfiy raqamlar kop"
     else:
         return "3 manfiy raqamlar kop"
-print(main(1,-1,-2))
