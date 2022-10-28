@@ -8,5 +8,5 @@ def main(a):
     """
     if a>0:
         return a-1
-    else :
+    if a<0 and a==0:
         return  a+2
