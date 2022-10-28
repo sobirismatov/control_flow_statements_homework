@@ -7,9 +7,9 @@ def main(a):
         a: integer
     """
     if a>0:
-        print(a+1)
+        return a+1
     if a<0:
-        print(a-2)
+        return a-2
     if a==0:
-        print(10)
-    return a
+        return 10
+    
