@@ -10,7 +10,7 @@ def main(a):
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
     if (a%2*10+a//10)<=a:
-        return "true"
+        return 1
     else:
-        return "false"
+        return 0
 print(main(21))
